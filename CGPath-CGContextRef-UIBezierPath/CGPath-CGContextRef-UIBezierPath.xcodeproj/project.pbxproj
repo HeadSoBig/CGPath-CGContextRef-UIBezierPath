@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2300A4A1EA4AC4F00C30600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2300A491EA4AC4F00C30600 /* main.m */; };
+		D2300A4D1EA4AC4F00C30600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2300A4C1EA4AC4F00C30600 /* AppDelegate.m */; };
+		D2300A501EA4AC4F00C30600 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2300A4F1EA4AC4F00C30600 /* ViewController.m */; };
+		D2300A531EA4AC4F00C30600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2300A511EA4AC4F00C30600 /* Main.storyboard */; };
+		D2300A551EA4AC4F00C30600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2300A541EA4AC4F00C30600 /* Assets.xcassets */; };
+		D2300A581EA4AC4F00C30600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2300A561EA4AC4F00C30600 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2300A451EA4AC4F00C30600 /* CGPath-CGContextRef-UIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGPath-CGContextRef-UIBezierPath.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2300A491EA4AC4F00C30600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2300A4B1EA4AC4F00C30600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2300A4C1EA4AC4F00C30600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2300A4E1EA4AC4F00C30600 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2300A4F1EA4AC4F00C30600 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2300A521EA4AC4F00C30600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2300A541EA4AC4F00C30600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2300A571EA4AC4F00C30600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2300A591EA4AC4F00C30600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2300A421EA4AC4F00C30600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2300A3C1EA4AC4F00C30600 = {
+			isa = PBXGroup;
+			children = (
+				D2300A471EA4AC4F00C30600 /* CGPath-CGContextRef-UIBezierPath */,
+				D2300A461EA4AC4F00C30600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2300A461EA4AC4F00C30600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2300A451EA4AC4F00C30600 /* CGPath-CGContextRef-UIBezierPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2300A471EA4AC4F00C30600 /* CGPath-CGContextRef-UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				D2300A4B1EA4AC4F00C30600 /* AppDelegate.h */,
+				D2300A4C1EA4AC4F00C30600 /* AppDelegate.m */,
+				D2300A4E1EA4AC4F00C30600 /* ViewController.h */,
+				D2300A4F1EA4AC4F00C30600 /* ViewController.m */,
+				D2300A511EA4AC4F00C30600 /* Main.storyboard */,
+				D2300A541EA4AC4F00C30600 /* Assets.xcassets */,
+				D2300A561EA4AC4F00C30600 /* LaunchScreen.storyboard */,
+				D2300A591EA4AC4F00C30600 /* Info.plist */,
+				D2300A481EA4AC4F00C30600 /* Supporting Files */,
+			);
+			path = "CGPath-CGContextRef-UIBezierPath";
+			sourceTree = "<group>";
+		};
+		D2300A481EA4AC4F00C30600 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2300A491EA4AC4F00C30600 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2300A441EA4AC4F00C30600 /* CGPath-CGContextRef-UIBezierPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2300A5C1EA4AC4F00C30600 /* Build configuration list for PBXNativeTarget "CGPath-CGContextRef-UIBezierPath" */;
+			buildPhases = (
+				D2300A411EA4AC4F00C30600 /* Sources */,
+				D2300A421EA4AC4F00C30600 /* Frameworks */,
+				D2300A431EA4AC4F00C30600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CGPath-CGContextRef-UIBezierPath";
+			productName = "CGPath-CGContextRef-UIBezierPath";
+			productReference = D2300A451EA4AC4F00C30600 /* CGPath-CGContextRef-UIBezierPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2300A3D1EA4AC4F00C30600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = cnlive;
+				TargetAttributes = {
+					D2300A441EA4AC4F00C30600 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 94X49GG3ZW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2300A401EA4AC4F00C30600 /* Build configuration list for PBXProject "CGPath-CGContextRef-UIBezierPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2300A3C1EA4AC4F00C30600;
+			productRefGroup = D2300A461EA4AC4F00C30600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2300A441EA4AC4F00C30600 /* CGPath-CGContextRef-UIBezierPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2300A431EA4AC4F00C30600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2300A581EA4AC4F00C30600 /* LaunchScreen.storyboard in Resources */,
+				D2300A551EA4AC4F00C30600 /* Assets.xcassets in Resources */,
+				D2300A531EA4AC4F00C30600 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2300A411EA4AC4F00C30600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2300A501EA4AC4F00C30600 /* ViewController.m in Sources */,
+				D2300A4D1EA4AC4F00C30600 /* AppDelegate.m in Sources */,
+				D2300A4A1EA4AC4F00C30600 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2300A511EA4AC4F00C30600 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2300A521EA4AC4F00C30600 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2300A561EA4AC4F00C30600 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2300A571EA4AC4F00C30600 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2300A5A1EA4AC4F00C30600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2300A5B1EA4AC4F00C30600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2300A5D1EA4AC4F00C30600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94X49GG3ZW;
+				INFOPLIST_FILE = "CGPath-CGContextRef-UIBezierPath/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnlive.libs.CGPath-CGContextRef-UIBezierPath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2300A5E1EA4AC4F00C30600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94X49GG3ZW;
+				INFOPLIST_FILE = "CGPath-CGContextRef-UIBezierPath/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnlive.libs.CGPath-CGContextRef-UIBezierPath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2300A401EA4AC4F00C30600 /* Build configuration list for PBXProject "CGPath-CGContextRef-UIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2300A5A1EA4AC4F00C30600 /* Debug */,
+				D2300A5B1EA4AC4F00C30600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2300A5C1EA4AC4F00C30600 /* Build configuration list for PBXNativeTarget "CGPath-CGContextRef-UIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2300A5D1EA4AC4F00C30600 /* Debug */,
+				D2300A5E1EA4AC4F00C30600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2300A3D1EA4AC4F00C30600 /* Project object */;
+}
